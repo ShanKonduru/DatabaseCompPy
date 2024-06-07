@@ -1,0 +1,12 @@
+{
+{
+    "source": {
+        "table": "src_table",
+        "columns": ["col1", "col2", "col3"]
+    },
+    "destination": {
+        "table": "dest_table",
+        "columns": ["colA", "colB", "colC"]
+    },
+    "key_columns": ["col1", "colA"]
+}

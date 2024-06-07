@@ -1,0 +1,15 @@
+{
+    "source_db": {
+        "type": "oracle",
+        "user": "src_user",
+        "password": "src_password",
+        "dsn": "src_dsn"
+    },
+    "destination_db": {
+        "type": "sql_server",
+        "user": "dest_user",
+        "password": "dest_password",
+        "server": "dest_server",
+        "database": "dest_db"
+    }
+}

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "databasecomppy"
+version = "0.1.0"
+description = "Python program to compare two database tables and generate report"
+authors = ["ShanKonduru <ShanKonduru@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+SQLAlchemy = "^2.0.30"
+Jinja2 = "^3.1.4"
+cx-Oracle = "^8.3.0"
+pyodbc = "^5.1.0"
+ibm-db-sa = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
